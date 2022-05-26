@@ -15,7 +15,7 @@ def binarysearch(li,target):
 li=[1,3,5,6,7,8,90,3454,4567,7890,98765]
 binarysearch(li,4567)
 #linear searching in datastuctures with python
-#time complexity of 
+#time complexity of o(n)
 def linear(li,target):    
     for i in range(len(li)):
         if li[i]==target:
